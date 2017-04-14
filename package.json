@@ -4,7 +4,7 @@
   "description": "Es una app donde se aplica React con Redux",
   "main": "./built/server/index.js",
   "scripts": {
-    "build": "set NODE_ENV=production && webpack -p",
+    "build": "NODE_ENV=production && webpack -p",
     "bff": "nodemon ./built/server/index.js",
     "deploy": "now",
     "deploy:sfs": "now ./built/statics/",
