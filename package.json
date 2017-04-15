@@ -5,7 +5,7 @@
   "main": "./built/server/index.js",
   "scripts": {
     "build": "NODE_ENV=production && webpack -p",
-    "bff": "nodemon ./built/server/index.js",
+    "bff": "node ./built/server/index.js",
     "deploy": "now",
     "deploy:sfs": "now ./built/statics/",
     "start": "npm run bff",
